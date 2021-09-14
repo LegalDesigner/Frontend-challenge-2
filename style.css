@@ -1,0 +1,70 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 500px;
+    width: 20%;
+    float: left;
+    padding: 80px 50px;
+    position: relative;
+    left: 300px;
+    top: 100px; 
+}
+
+img {
+    position: relative;
+    bottom: 30px;
+}
+
+p {
+    position: relative;
+    right: 10px;
+    top: 15px;
+    margin: 10px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    color: hsl(0, 0%, 95%); 
+font-weight: 700;
+font-family: 'Times New Roman', Times, serif;
+}
+button {
+    width: 130px;
+    height: 43px;
+    position: relative;
+    top: 120px;
+    border-radius: 20px;
+    border: white;
+}
+
+.box-1 {
+    background:  hsl(31, 77%, 52%);
+}
+
+.box-1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box-2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.box-2 button {
+   color: hsl(184, 100%, 22%);
+}
+
+.box-3 {
+    background:  hsl(179, 100%, 13%);
+}
+
+.box-3 {
+    color:hsl(179, 100%, 13%) ;
+}
